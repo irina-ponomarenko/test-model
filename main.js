@@ -48,7 +48,7 @@ https://tympanus.net/codrops/2019/10/14/how-to-create-an-interactive-3d-characte
     camera.position.x = 0;
     camera.position.y = -3;
     
-    let stacy_txt = new THREE.TextureLoader().load('stacy.jpg');
+    let stacy_txt = new THREE.TextureLoader().load('h_01_mg__geralt_tattoo_d01.xbm.jpg');
     stacy_txt.flipY = false;
 
     const stacy_mtl = new THREE.MeshPhongMaterial({
